@@ -9,13 +9,58 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        ScrollView {
+            VStack(alignment: .leading){
+                Text("환율 메뉴")
+                    .font(.title .bold())
+                    
+                HStack(spacing: 15) {
+                    Button {}
+                    label : {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                                Text("실시간 환율 보기")
+                                    .foregroundColor(.black)
+                            }
+                    }
+                    Button {}
+                    label : {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                            Text("")
+                                .foregroundColor(.black)
+                        }
+                    }
+                    
+                }
+                HStack(spacing: 15) {
+                    Button {}
+                    label : {
+                            ZStack {
+                                RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                                Text("실시간 환율 보기")
+                                    .foregroundColor(.black)
+                            }
+                    }
+                    Button {}
+                    label : {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                            Text("")
+                                .foregroundColor(.black)
+                        }
+                    }
+                    
+                }
+                
+                Text("실시간 환율 확인")
+                    .font(.title .bold())
+                
+                
+            }
+           
+            
         }
-        .padding()
     }
 }
 

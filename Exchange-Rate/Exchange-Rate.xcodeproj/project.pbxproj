@@ -52,8 +52,9 @@
 			isa = PBXGroup;
 			children = (
 				865E9DBD295ECF2400D8E1D9 /* Exchange_RateApp.swift */,
-				865E9DBF295ECF2400D8E1D9 /* ContentView.swift */,
+				865E9DCB295ED38F00D8E1D9 /* Sources */,
 				865E9DC1295ECF2500D8E1D9 /* Assets.xcassets */,
+				865E9DBF295ECF2400D8E1D9 /* ContentView.swift */,
 				865E9DC3295ECF2500D8E1D9 /* Preview Content */,
 			);
 			path = "Exchange-Rate";
@@ -65,6 +66,37 @@
 				865E9DC4295ECF2500D8E1D9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		865E9DCB295ED38F00D8E1D9 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				865E9DCC295ED3A400D8E1D9 /* Models */,
+				865E9DCD295ED3B100D8E1D9 /* ViewModels */,
+				865E9DCE295ED3BA00D8E1D9 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		865E9DCC295ED3A400D8E1D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		865E9DCD295ED3B100D8E1D9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		865E9DCE295ED3BA00D8E1D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
