@@ -15,15 +15,19 @@ struct ContentView: View {
                     .font(.title .bold())
                     
                 HStack(spacing: 15) {
-                    Button {}
-                    label : {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
-                                Text("실시간 환율 보기")
-                                    .foregroundColor(.black)
-                            }
+                    Button {
+                        
                     }
-                    Button {}
+                    label : {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                            Text("실시간 환율 보기")
+                                .foregroundColor(.black)
+                        }
+                    }
+                    Button {
+                        
+                    }
                     label : {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
@@ -34,15 +38,19 @@ struct ContentView: View {
                     
                 }
                 HStack(spacing: 15) {
-                    Button {}
-                    label : {
-                            ZStack {
-                                RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
-                                Text("실시간 환율 보기")
-                                    .foregroundColor(.black)
-                            }
+                    Button {
+                        
                     }
-                    Button {}
+                    label : {
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
+                            Text("실시간 환율 보기")
+                                .foregroundColor(.black)
+                        }
+                    }
+                    Button {
+                        
+                    }
                     label : {
                         ZStack {
                             RoundedRectangle(cornerRadius: 10).frame(width : 170, height : 170).foregroundColor(.orange)
