@@ -11,7 +11,7 @@ import SwiftUI
 struct Exchange_RateApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

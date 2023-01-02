@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  Exchange-Rate
 //
-//  Created by 이승혁 on 2022/12/30.
+//  Created by 이승혁 on 2023/01/02.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
+    @StateObject var viewModel = HomeViewModel() // 추가
     var body: some View {
         ScrollView {
             VStack(alignment: .leading){
@@ -72,8 +73,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
